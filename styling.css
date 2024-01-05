@@ -1,0 +1,93 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#container
+{
+    height: 35rem;
+    width: 75%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#sectionOne,#sectionTwo
+{
+    height: 75%;
+    width: 75%;
+    background-color: violet;
+    display: flex;
+    transition: 0.5s ease-in-out;
+}
+#divisionOne,#divisionTwo
+{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+#formOne,#formTwo
+{
+    height: 50%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2rem; */
+    /* background-color: yellowgreen; */
+}
+#email,#password,#nameTwo,#emailTwo,#passwordTwo
+{
+    height: 2.5rem;
+    width: 95%;
+    background-color: lavender;
+    outline: 0;
+    margin-top: 5%;
+    border: none;
+    padding-left: 5%;
+}
+.iconBtn
+{
+    border-radius: 50%;
+    outline: 0;
+    border: none;
+    padding: 1rem;
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}
+.fa-brands
+{
+    font-size: 1.2rem;
+}
+#twoPara
+{
+    text-align: center;
+    padding: 0rem 3rem;
+}
+#signUp,#signIn
+{
+    height: 2.5rem;
+    width: 45%;
+    outline: 0;
+    border: 2px solid white;
+    border-radius: 2rem;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 2.5%;
+}
+#signIn
+{
+    margin-top: 5%;
+}
