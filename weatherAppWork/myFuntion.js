@@ -95,5 +95,9 @@ function styleText(id)
 }
 function backHome()
 {
-    window.location.href="../index.html"
+    window.location.href="../index.html";
+    // localStorage.removeItem('UserEntries');
 }
+// document.getElementById('clearButton').addEventListener('click', function() {
+//     // Clear a specific item from local storage
+// });
